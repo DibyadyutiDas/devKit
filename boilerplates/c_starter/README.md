@@ -1,19 +1,18 @@
-# node express starter
+# c starter
 
 ## 🛠 Description
-This is a boilerplate for **node express starter** development.
+This is a boilerplate for **c starter** development.
 
 ## 🚀 Usage
 ```bash
 # Navigate into this boilerplate
-cd boilerplates/node_express_starter
-npm install && npm start
+cd boilerplates/c_starter
+gcc main.c -o app && ./app
 ```
 
 ## 📂 Structure
 ```
-  ├──/index.js
-  ├──/package.json
+  ├──/main.c
   ├──/README.md
 ```
 

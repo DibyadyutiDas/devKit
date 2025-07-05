@@ -1,19 +1,18 @@
-# node express starter
+# java starter
 
 ## 🛠 Description
-This is a boilerplate for **node express starter** development.
+This is a boilerplate for **java starter** development.
 
 ## 🚀 Usage
 ```bash
 # Navigate into this boilerplate
-cd boilerplates/node_express_starter
-npm install && npm start
+cd boilerplates/java_starter
+javac Main.java && java Main
 ```
 
 ## 📂 Structure
 ```
-  ├──/index.js
-  ├──/package.json
+  ├──/Main.java
   ├──/README.md
 ```
 

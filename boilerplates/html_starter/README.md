@@ -1,19 +1,19 @@
-# node express starter
+# html starter
 
 ## 🛠 Description
-This is a boilerplate for **node express starter** development.
+This is a boilerplate for **html starter** development.
 
 ## 🚀 Usage
 ```bash
 # Navigate into this boilerplate
-cd boilerplates/node_express_starter
-npm install && npm start
+cd boilerplates/html_starter
+# Open in browser
+start index.html
 ```
 
 ## 📂 Structure
 ```
-  ├──/index.js
-  ├──/package.json
+  ├──/index.html
   ├──/README.md
 ```
 
