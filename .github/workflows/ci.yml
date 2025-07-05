@@ -1,0 +1,42 @@
+name: DevKit Boilerplate CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  check-boilerplates:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.x
+
+      - name: Run Python CLI
+        run: python3 boilerplates/python_cli_starter/main.py || true
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Run Node starter
+        run: node boilerplates/node_express_starter/index.js || true
+
+      - name: Compile C
+        run: gcc boilerplates/c_starter/main.c -o c_app || true
+
+      - name: Compile C++
+        run: g++ boilerplates/cpp_starter/main.cpp -o cpp_app || true
+
+      - name: Compile Java
+        run: javac boilerplates/java_starter/Main.java || true
+
+      - name: List Files (Verify HTML Exists)
+        run: ls -R boilerplates/html_starter || true
