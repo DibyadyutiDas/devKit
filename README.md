@@ -32,3 +32,8 @@ Whether you're starting a new project, automating tasks, or looking for reusable
 ```bash
 git clone https://github.com/DibyadyutiDas/DevKit.git
 cd DevKit
+```
+---
+
+## 📚 Documentation & Contribution
+Want to contribute? Check out the [Contribution Guidelines](CONTRIBUTING.md).
